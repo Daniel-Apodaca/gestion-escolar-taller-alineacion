@@ -26,10 +26,6 @@
 
 Control Escolar es una aplicación de escritorio destinada al personal administrativo de una institución educativa. Permite registrar y administrar alumnos, cursos y las inscripciones que los relacionan. Su interfaz se desarrolla con Tkinter y sus datos se almacenan localmente en SQLite.
 
-El sistema se elaboró como Producto 2.1 del Taller de Alineación al estándar EC0835. Este manual constituye el Producto 2.2 y describe su estructura interna, modelo de datos, dependencias, configuración, funcionamiento y código fuente. Está dirigido a quienes deban comprender, mantener o reproducir el proyecto.
-
-La aplicación opera en un equipo local sin servidor de base de datos ni conexión a Internet para su uso cotidiano. El alcance comprende operaciones CRUD (crear, consultar, actualizar y eliminar), búsqueda de alumnos, filtro de inscripciones por alumno, resumen de inscritos por curso y respaldo de la base. No incluye calificaciones, pagos, asistencia, autenticación ni sincronización entre equipos.
-
 ## 2. Objetivo general del sistema
 
 Facilitar la administración local de alumnos, cursos e inscripciones mediante una aplicación gráfica que permita mantener información organizada, consultar relaciones entre registros y conservar los datos en una base SQLite.
@@ -1350,4 +1346,4 @@ if __name__ == "__main__":
 | Capturas | Sección 8 de la versión PDF |
 | Código formateado y documentado | Sección 10 y anexos |
 
-Esta revisión corresponde a las instrucciones de actividad proporcionadas. La lista de cotejo oficial no fue adjuntada, por lo que su verificación específica queda pendiente. El PDF deberá incorporarse al compilado de productos del taller; este documento no sustituye el compilado completo.
+Este manual técnico documenta la estructura, el diseño y el funcionamiento del sistema Control Escolar, correspondiente al Producto 2.2 del Taller de Alineación al estándar EC0835. Su versión en PDF se integrará al compilado final de productos del taller.
